@@ -31,6 +31,10 @@ const config: HardhatUserConfig = {
       url: `https://linea-goerli.infura.io/v3/${INFURA_API_KEY}`,
       accounts: [PRIVATE_KEY],
     },
+    scrollSepolia: {
+      url: `https://sepolia-rpc.scroll.io/`,
+      accounts: [PRIVATE_KEY]
+    }
   }
 };
 
